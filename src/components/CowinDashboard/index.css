@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.app-container {
+  /* min-height: 100vh; */
+  background-color: #161625;
+  display: flex;
+  justify-content: center;
+}
+
+.responsive-container {
+  width: 90%;
+  max-width: 1240px;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+}
+
+.website-logo {
+  width: 60px;
+  height: 60px;
+}
+
+.website-name {
+  font-family: 'Roboto';
+  font-size: 32px;
+  color: #2cc6c6;
+  font-weight: 500;
+  margin-left: 22px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 500;
+  color: #cbd5e1;
+}
+
+.app-card {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.vaccination-coverage-container {
+  padding-left: 0;
+  list-style: none;
+}
+
+.failure-img {
+  margin-top: 0;
+  width: 850px;
+}
+
+.failure-text {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 44px;
+  text-align: center;
+  margin-top: 26px;
+}
